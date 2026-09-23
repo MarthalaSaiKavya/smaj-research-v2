@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+paper/*.aux
+paper/*.log
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.blg
+paper/*.out
+paper/build.log
