@@ -1,0 +1,2116 @@
+{
+  "step": "frames",
+  "passed": true,
+  "protocol": 2,
+  "time": "2026-09-23 08:47:02",
+  "n_probe_frames": 60,
+  "n_discovery_frames": 20,
+  "n_test_frames": 40,
+  "n_tasks": 10,
+  "frames_per_task": {
+    "0": 6,
+    "1": 6,
+    "2": 6,
+    "3": 6,
+    "4": 6,
+    "5": 6,
+    "6": 6,
+    "7": 6,
+    "8": 6,
+    "9": 6
+  },
+  "n_frames_distractor_visible": 60,
+  "probe": [
+    {
+      "frame_id": 0,
+      "task_id": 0,
+      "split": "discovery",
+      "episode": "task0:demo:demo_0",
+      "t": 22,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 788,
+          "occ_px": 1006,
+          "slab_shift": [
+            0,
+            -50
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 627,
+          "distractor_occ_px": 823
+        },
+        "image2": {
+          "mask_px": 4152,
+          "occ_px": 4635,
+          "slab_shift": [
+            0,
+            98
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 12,
+          "distractor_occ_px": 50
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 1,
+      "task_id": 0,
+      "split": "discovery",
+      "episode": "task0:demo:demo_0",
+      "t": 39,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 341,
+          "occ_px": 591,
+          "slab_shift": [
+            0,
+            -50
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 466,
+          "distractor_occ_px": 675
+        },
+        "image2": {
+          "mask_px": 11311,
+          "occ_px": 12237,
+          "slab_shift": [
+            112,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 2,
+      "task_id": 0,
+      "split": "test",
+      "episode": "task0:demo:demo_1",
+      "t": 21,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 779,
+          "occ_px": 997,
+          "slab_shift": [
+            0,
+            -50
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 635,
+          "distractor_occ_px": 835
+        },
+        "image2": {
+          "mask_px": 2772,
+          "occ_px": 3313,
+          "slab_shift": [
+            66,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 3,
+      "task_id": 0,
+      "split": "test",
+      "episode": "task0:demo:demo_1",
+      "t": 36,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 451,
+          "occ_px": 682,
+          "slab_shift": [
+            -29,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 587,
+          "distractor_occ_px": 791
+        },
+        "image2": {
+          "mask_px": 17265,
+          "occ_px": 18173,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 4,
+      "task_id": 0,
+      "split": "test",
+      "episode": "task0:demo:demo_2",
+      "t": 23,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 775,
+          "occ_px": 992,
+          "slab_shift": [
+            0,
+            -50
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 621,
+          "distractor_occ_px": 818
+        },
+        "image2": {
+          "mask_px": 4117,
+          "occ_px": 4690,
+          "slab_shift": [
+            91,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 5,
+      "task_id": 0,
+      "split": "test",
+      "episode": "task0:demo:demo_2",
+      "t": 42,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 318,
+          "occ_px": 528,
+          "slab_shift": [
+            -28,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 592,
+          "distractor_occ_px": 791
+        },
+        "image2": {
+          "mask_px": 11410,
+          "occ_px": 12143,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 6,
+      "task_id": 1,
+      "split": "discovery",
+      "episode": "task1:rollout:init0",
+      "t": 28,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 550,
+          "occ_px": 806,
+          "slab_shift": [
+            0,
+            -46
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1191,
+          "distractor_occ_px": 1455
+        },
+        "image2": {
+          "mask_px": 2336,
+          "occ_px": 2718,
+          "slab_shift": [
+            74,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 7,
+      "task_id": 1,
+      "split": "discovery",
+      "episode": "task1:rollout:init0",
+      "t": 51,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 344,
+          "occ_px": 582,
+          "slab_shift": [
+            0,
+            -46
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1191,
+          "distractor_occ_px": 1455
+        },
+        "image2": {
+          "mask_px": 4295,
+          "occ_px": 4930,
+          "slab_shift": [
+            68,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 8,
+      "task_id": 1,
+      "split": "test",
+      "episode": "task1:rollout:init1",
+      "t": 28,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 587,
+          "occ_px": 843,
+          "slab_shift": [
+            0,
+            -48
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1131,
+          "distractor_occ_px": 1389
+        },
+        "image2": {
+          "mask_px": 2909,
+          "occ_px": 3511,
+          "slab_shift": [
+            88,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 9,
+      "task_id": 1,
+      "split": "test",
+      "episode": "task1:rollout:init1",
+      "t": 51,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 507,
+          "occ_px": 740,
+          "slab_shift": [
+            0,
+            -48
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1131,
+          "distractor_occ_px": 1389
+        },
+        "image2": {
+          "mask_px": 16046,
+          "occ_px": 16829,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 10,
+      "task_id": 1,
+      "split": "test",
+      "episode": "task1:rollout:init2",
+      "t": 29,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 572,
+          "occ_px": 824,
+          "slab_shift": [
+            0,
+            -46
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1186,
+          "distractor_occ_px": 1450
+        },
+        "image2": {
+          "mask_px": 2472,
+          "occ_px": 3008,
+          "slab_shift": [
+            81,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 11,
+      "task_id": 1,
+      "split": "test",
+      "episode": "task1:rollout:init2",
+      "t": 54,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 429,
+          "occ_px": 698,
+          "slab_shift": [
+            0,
+            -46
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1186,
+          "distractor_occ_px": 1450
+        },
+        "image2": {
+          "mask_px": 10120,
+          "occ_px": 10945,
+          "slab_shift": [
+            118,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 12,
+      "task_id": 2,
+      "split": "discovery",
+      "episode": "task2:rollout:init0",
+      "t": 21,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 686,
+          "occ_px": 955,
+          "slab_shift": [
+            0,
+            49
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 889,
+          "distractor_occ_px": 1121
+        },
+        "image2": {
+          "mask_px": 3502,
+          "occ_px": 4148,
+          "slab_shift": [
+            95,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 13,
+      "task_id": 2,
+      "split": "discovery",
+      "episode": "task2:rollout:init0",
+      "t": 37,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 364,
+          "occ_px": 631,
+          "slab_shift": [
+            0,
+            -49
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 889,
+          "distractor_occ_px": 1121
+        },
+        "image2": {
+          "mask_px": 12313,
+          "occ_px": 13327,
+          "slab_shift": [
+            115,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 14,
+      "task_id": 2,
+      "split": "test",
+      "episode": "task2:rollout:init1",
+      "t": 25,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 681,
+          "occ_px": 951,
+          "slab_shift": [
+            0,
+            50
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 930,
+          "distractor_occ_px": 1167
+        },
+        "image2": {
+          "mask_px": 3914,
+          "occ_px": 4592,
+          "slab_shift": [
+            92,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 15,
+      "task_id": 2,
+      "split": "test",
+      "episode": "task2:rollout:init1",
+      "t": 44,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 428,
+          "occ_px": 684,
+          "slab_shift": [
+            0,
+            -50
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 930,
+          "distractor_occ_px": 1167
+        },
+        "image2": {
+          "mask_px": 17598,
+          "occ_px": 18552,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 16,
+      "task_id": 2,
+      "split": "test",
+      "episode": "task2:rollout:init2",
+      "t": 22,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 682,
+          "occ_px": 957,
+          "slab_shift": [
+            0,
+            49
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 893,
+          "distractor_occ_px": 1125
+        },
+        "image2": {
+          "mask_px": 4541,
+          "occ_px": 5240,
+          "slab_shift": [
+            106,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 17,
+      "task_id": 2,
+      "split": "test",
+      "episode": "task2:rollout:init2",
+      "t": 39,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 328,
+          "occ_px": 570,
+          "slab_shift": [
+            0,
+            -48
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 893,
+          "distractor_occ_px": 1125
+        },
+        "image2": {
+          "mask_px": 19909,
+          "occ_px": 20939,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 18,
+      "task_id": 3,
+      "split": "discovery",
+      "episode": "task3:rollout:init0",
+      "t": 24,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 953,
+          "occ_px": 1267,
+          "slab_shift": [
+            0,
+            55
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1023,
+          "distractor_occ_px": 1217
+        },
+        "image2": {
+          "mask_px": 3338,
+          "occ_px": 3882,
+          "slab_shift": [
+            0,
+            -89
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 19,
+      "task_id": 3,
+      "split": "discovery",
+      "episode": "task3:rollout:init0",
+      "t": 43,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 401,
+          "occ_px": 686,
+          "slab_shift": [
+            0,
+            -55
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1023,
+          "distractor_occ_px": 1217
+        },
+        "image2": {
+          "mask_px": 6325,
+          "occ_px": 7276,
+          "slab_shift": [
+            80,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 20,
+      "task_id": 3,
+      "split": "test",
+      "episode": "task3:rollout:init1",
+      "t": 24,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 996,
+          "occ_px": 1299,
+          "slab_shift": [
+            0,
+            56
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1083,
+          "distractor_occ_px": 1341
+        },
+        "image2": {
+          "mask_px": 3071,
+          "occ_px": 3547,
+          "slab_shift": [
+            0,
+            85
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 21,
+      "task_id": 3,
+      "split": "test",
+      "episode": "task3:rollout:init1",
+      "t": 43,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 562,
+          "occ_px": 901,
+          "slab_shift": [
+            0,
+            -56
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1083,
+          "distractor_occ_px": 1341
+        },
+        "image2": {
+          "mask_px": 10455,
+          "occ_px": 11452,
+          "slab_shift": [
+            110,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 22,
+      "task_id": 3,
+      "split": "test",
+      "episode": "task3:rollout:init2",
+      "t": 26,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 1033,
+          "occ_px": 1307,
+          "slab_shift": [
+            0,
+            56
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1098,
+          "distractor_occ_px": 1318
+        },
+        "image2": {
+          "mask_px": 4217,
+          "occ_px": 4738,
+          "slab_shift": [
+            0,
+            -96
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 23,
+      "task_id": 3,
+      "split": "test",
+      "episode": "task3:rollout:init2",
+      "t": 47,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 591,
+          "occ_px": 892,
+          "slab_shift": [
+            0,
+            -55
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1098,
+          "distractor_occ_px": 1318
+        },
+        "image2": {
+          "mask_px": 25641,
+          "occ_px": 26762,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 24,
+      "task_id": 4,
+      "split": "discovery",
+      "episode": "task4:rollout:init0",
+      "t": 30,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 1244,
+          "occ_px": 1516,
+          "slab_shift": [
+            0,
+            62
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1082,
+          "distractor_occ_px": 1291
+        },
+        "image2": {
+          "mask_px": 5560,
+          "occ_px": 6117,
+          "slab_shift": [
+            0,
+            -109
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 25,
+      "task_id": 4,
+      "split": "discovery",
+      "episode": "task4:rollout:init0",
+      "t": 55,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 605,
+          "occ_px": 938,
+          "slab_shift": [
+            0,
+            60
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1082,
+          "distractor_occ_px": 1291
+        },
+        "image2": {
+          "mask_px": 12004,
+          "occ_px": 12947,
+          "slab_shift": [
+            119,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 26,
+      "task_id": 4,
+      "split": "test",
+      "episode": "task4:rollout:init1",
+      "t": 114,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 1255,
+          "occ_px": 1528,
+          "slab_shift": [
+            0,
+            62
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1036,
+          "distractor_occ_px": 1235
+        },
+        "image2": {
+          "mask_px": 0,
+          "occ_px": 0,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "empty",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 27,
+      "task_id": 4,
+      "split": "test",
+      "episode": "task4:rollout:init1",
+      "t": 223,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 1255,
+          "occ_px": 1528,
+          "slab_shift": [
+            0,
+            62
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1036,
+          "distractor_occ_px": 1235
+        },
+        "image2": {
+          "mask_px": 0,
+          "occ_px": 0,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "empty",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 28,
+      "task_id": 4,
+      "split": "test",
+      "episode": "task4:rollout:init2",
+      "t": 114,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 1273,
+          "occ_px": 1549,
+          "slab_shift": [
+            -50,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 973,
+          "distractor_occ_px": 1163
+        },
+        "image2": {
+          "mask_px": 0,
+          "occ_px": 0,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "empty",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 29,
+      "task_id": 4,
+      "split": "test",
+      "episode": "task4:rollout:init2",
+      "t": 223,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 1273,
+          "occ_px": 1549,
+          "slab_shift": [
+            0,
+            64
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 973,
+          "distractor_occ_px": 1163
+        },
+        "image2": {
+          "mask_px": 0,
+          "occ_px": 0,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "empty",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 30,
+      "task_id": 5,
+      "split": "discovery",
+      "episode": "task5:rollout:init0",
+      "t": 33,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 294,
+          "occ_px": 504,
+          "slab_shift": [
+            0,
+            -41
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1005,
+          "distractor_occ_px": 1249
+        },
+        "image2": {
+          "mask_px": 3964,
+          "occ_px": 4685,
+          "slab_shift": [
+            61,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 31,
+      "task_id": 5,
+      "split": "discovery",
+      "episode": "task5:rollout:init0",
+      "t": 61,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 439,
+          "occ_px": 659,
+          "slab_shift": [
+            0,
+            46
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1005,
+          "distractor_occ_px": 1249
+        },
+        "image2": {
+          "mask_px": 10027,
+          "occ_px": 10767,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 32,
+      "task_id": 5,
+      "split": "test",
+      "episode": "task5:rollout:init1",
+      "t": 21,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 502,
+          "occ_px": 761,
+          "slab_shift": [
+            0,
+            46
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1058,
+          "distractor_occ_px": 1308
+        },
+        "image2": {
+          "mask_px": 1383,
+          "occ_px": 1698,
+          "slab_shift": [
+            44,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 110,
+          "distractor_occ_px": 184
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 33,
+      "task_id": 5,
+      "split": "test",
+      "episode": "task5:rollout:init1",
+      "t": 36,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 278,
+          "occ_px": 492,
+          "slab_shift": [
+            0,
+            44
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1058,
+          "distractor_occ_px": 1308
+        },
+        "image2": {
+          "mask_px": 7430,
+          "occ_px": 8234,
+          "slab_shift": [
+            91,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 34,
+      "task_id": 5,
+      "split": "test",
+      "episode": "task5:rollout:init2",
+      "t": 19,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 522,
+          "occ_px": 779,
+          "slab_shift": [
+            0,
+            45
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1040,
+          "distractor_occ_px": 1289
+        },
+        "image2": {
+          "mask_px": 1403,
+          "occ_px": 1842,
+          "slab_shift": [
+            44,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 2148,
+          "distractor_occ_px": 2397
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 35,
+      "task_id": 5,
+      "split": "test",
+      "episode": "task5:rollout:init2",
+      "t": 32,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 89,
+          "occ_px": 222,
+          "slab_shift": [
+            0,
+            -35
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1040,
+          "distractor_occ_px": 1289
+        },
+        "image2": {
+          "mask_px": 0,
+          "occ_px": 0,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "empty",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 36,
+      "task_id": 6,
+      "split": "discovery",
+      "episode": "task6:rollout:init0",
+      "t": 28,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 1187,
+          "occ_px": 1450,
+          "slab_shift": [
+            0,
+            58
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 93,
+          "distractor_occ_px": 196
+        },
+        "image2": {
+          "mask_px": 4157,
+          "occ_px": 4641,
+          "slab_shift": [
+            0,
+            -96
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 37,
+      "task_id": 6,
+      "split": "discovery",
+      "episode": "task6:rollout:init0",
+      "t": 51,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 916,
+          "occ_px": 1231,
+          "slab_shift": [
+            0,
+            58
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 461,
+          "distractor_occ_px": 640
+        },
+        "image2": {
+          "mask_px": 20275,
+          "occ_px": 21256,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 38,
+      "task_id": 6,
+      "split": "test",
+      "episode": "task6:rollout:init1",
+      "t": 27,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 1145,
+          "occ_px": 1405,
+          "slab_shift": [
+            0,
+            58
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 210,
+          "distractor_occ_px": 352
+        },
+        "image2": {
+          "mask_px": 4026,
+          "occ_px": 4501,
+          "slab_shift": [
+            0,
+            -94
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 39,
+      "task_id": 6,
+      "split": "test",
+      "episode": "task6:rollout:init1",
+      "t": 49,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 581,
+          "occ_px": 855,
+          "slab_shift": [
+            0,
+            -58
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 518,
+          "distractor_occ_px": 703
+        },
+        "image2": {
+          "mask_px": 9593,
+          "occ_px": 10359,
+          "slab_shift": [
+            120,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 40,
+      "task_id": 6,
+      "split": "test",
+      "episode": "task6:rollout:init2",
+      "t": 26,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 1157,
+          "occ_px": 1418,
+          "slab_shift": [
+            0,
+            58
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 335,
+          "distractor_occ_px": 497
+        },
+        "image2": {
+          "mask_px": 4938,
+          "occ_px": 5463,
+          "slab_shift": [
+            0,
+            -104
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 41,
+      "task_id": 6,
+      "split": "test",
+      "episode": "task6:rollout:init2",
+      "t": 47,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 501,
+          "occ_px": 771,
+          "slab_shift": [
+            0,
+            -58
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 529,
+          "distractor_occ_px": 716
+        },
+        "image2": {
+          "mask_px": 14004,
+          "occ_px": 14901,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 42,
+      "task_id": 7,
+      "split": "discovery",
+      "episode": "task7:rollout:init0",
+      "t": 21,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 509,
+          "occ_px": 712,
+          "slab_shift": [
+            -35,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1032,
+          "distractor_occ_px": 1224
+        },
+        "image2": {
+          "mask_px": 5489,
+          "occ_px": 6097,
+          "slab_shift": [
+            86,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 43,
+      "task_id": 7,
+      "split": "discovery",
+      "episode": "task7:rollout:init0",
+      "t": 37,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 305,
+          "occ_px": 528,
+          "slab_shift": [
+            -28,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 1032,
+          "distractor_occ_px": 1224
+        },
+        "image2": {
+          "mask_px": 25482,
+          "occ_px": 26572,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 44,
+      "task_id": 7,
+      "split": "test",
+      "episode": "task7:rollout:init1",
+      "t": 21,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 500,
+          "occ_px": 727,
+          "slab_shift": [
+            0,
+            44
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 697,
+          "distractor_occ_px": 845
+        },
+        "image2": {
+          "mask_px": 4026,
+          "occ_px": 4765,
+          "slab_shift": [
+            79,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 45,
+      "task_id": 7,
+      "split": "test",
+      "episode": "task7:rollout:init1",
+      "t": 36,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 296,
+          "occ_px": 522,
+          "slab_shift": [
+            0,
+            -44
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 697,
+          "distractor_occ_px": 845
+        },
+        "image2": {
+          "mask_px": 27701,
+          "occ_px": 28874,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 46,
+      "task_id": 7,
+      "split": "test",
+      "episode": "task7:rollout:init2",
+      "t": 26,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 423,
+          "occ_px": 601,
+          "slab_shift": [
+            0,
+            -36
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 780,
+          "distractor_occ_px": 939
+        },
+        "image2": {
+          "mask_px": 3657,
+          "occ_px": 4242,
+          "slab_shift": [
+            72,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 47,
+      "task_id": 7,
+      "split": "test",
+      "episode": "task7:rollout:init2",
+      "t": 47,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 186,
+          "occ_px": 340,
+          "slab_shift": [
+            0,
+            -32
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 780,
+          "distractor_occ_px": 939
+        },
+        "image2": {
+          "mask_px": 12318,
+          "occ_px": 13125,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 48,
+      "task_id": 8,
+      "split": "discovery",
+      "episode": "task8:rollout:init0",
+      "t": 29,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 906,
+          "occ_px": 1140,
+          "slab_shift": [
+            0,
+            -54
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 636,
+          "distractor_occ_px": 836
+        },
+        "image2": {
+          "mask_px": 3164,
+          "occ_px": 3588,
+          "slab_shift": [
+            0,
+            84
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 49,
+      "task_id": 8,
+      "split": "discovery",
+      "episode": "task8:rollout:init0",
+      "t": 54,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 320,
+          "occ_px": 604,
+          "slab_shift": [
+            0,
+            -52
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 66,
+          "distractor_occ_px": 148
+        },
+        "image2": {
+          "mask_px": 1914,
+          "occ_px": 2453,
+          "slab_shift": [
+            42,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 50,
+      "task_id": 8,
+      "split": "test",
+      "episode": "task8:rollout:init1",
+      "t": 27,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 926,
+          "occ_px": 1140,
+          "slab_shift": [
+            0,
+            -51
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 601,
+          "distractor_occ_px": 794
+        },
+        "image2": {
+          "mask_px": 3366,
+          "occ_px": 3810,
+          "slab_shift": [
+            0,
+            88
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 51,
+      "task_id": 8,
+      "split": "test",
+      "episode": "task8:rollout:init1",
+      "t": 50,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 471,
+          "occ_px": 737,
+          "slab_shift": [
+            -31,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 41,
+          "distractor_occ_px": 100
+        },
+        "image2": {
+          "mask_px": 10294,
+          "occ_px": 11096,
+          "slab_shift": [
+            120,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 52,
+      "task_id": 8,
+      "split": "test",
+      "episode": "task8:rollout:init2",
+      "t": 27,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 861,
+          "occ_px": 1088,
+          "slab_shift": [
+            0,
+            -52
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 642,
+          "distractor_occ_px": 839
+        },
+        "image2": {
+          "mask_px": 3099,
+          "occ_px": 3527,
+          "slab_shift": [
+            0,
+            84
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 53,
+      "task_id": 8,
+      "split": "test",
+      "episode": "task8:rollout:init2",
+      "t": 50,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 441,
+          "occ_px": 688,
+          "slab_shift": [
+            -28,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 8,
+          "distractor_occ_px": 42
+        },
+        "image2": {
+          "mask_px": 12462,
+          "occ_px": 13295,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 54,
+      "task_id": 9,
+      "split": "discovery",
+      "episode": "task9:rollout:init0",
+      "t": 27,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 1180,
+          "occ_px": 1406,
+          "slab_shift": [
+            -49,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 510,
+          "distractor_occ_px": 692
+        },
+        "image2": {
+          "mask_px": 8663,
+          "occ_px": 9353,
+          "slab_shift": [
+            0,
+            -140
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 55,
+      "task_id": 9,
+      "split": "discovery",
+      "episode": "task9:rollout:init0",
+      "t": 48,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 749,
+          "occ_px": 1075,
+          "slab_shift": [
+            -40,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 510,
+          "distractor_occ_px": 692
+        },
+        "image2": {
+          "mask_px": 23853,
+          "occ_px": 24916,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 56,
+      "task_id": 9,
+      "split": "test",
+      "episode": "task9:rollout:init1",
+      "t": 26,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 1086,
+          "occ_px": 1283,
+          "slab_shift": [
+            -50,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 536,
+          "distractor_occ_px": 720
+        },
+        "image2": {
+          "mask_px": 5848,
+          "occ_px": 6268,
+          "slab_shift": [
+            0,
+            -98
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 57,
+      "task_id": 9,
+      "split": "test",
+      "episode": "task9:rollout:init1",
+      "t": 47,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 765,
+          "occ_px": 1009,
+          "slab_shift": [
+            -39,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 536,
+          "distractor_occ_px": 720
+        },
+        "image2": {
+          "mask_px": 22868,
+          "occ_px": 23780,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 58,
+      "task_id": 9,
+      "split": "test",
+      "episode": "task9:rollout:init2",
+      "t": 26,
+      "phase": 0.4,
+      "edit_info": {
+        "image": {
+          "mask_px": 959,
+          "occ_px": 1143,
+          "slab_shift": [
+            -48,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 508,
+          "distractor_occ_px": 694
+        },
+        "image2": {
+          "mask_px": 6444,
+          "occ_px": 6880,
+          "slab_shift": [
+            0,
+            -98
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    },
+    {
+      "frame_id": 59,
+      "task_id": 9,
+      "split": "test",
+      "episode": "task9:rollout:init2",
+      "t": 47,
+      "phase": 0.8,
+      "edit_info": {
+        "image": {
+          "mask_px": 512,
+          "occ_px": 684,
+          "slab_shift": [
+            -32,
+            0
+          ],
+          "slab_tag": "clear",
+          "distractor_px": 508,
+          "distractor_occ_px": 694
+        },
+        "image2": {
+          "mask_px": 14282,
+          "occ_px": 15225,
+          "slab_shift": [
+            0,
+            0
+          ],
+          "slab_tag": "no_room",
+          "distractor_px": 0,
+          "distractor_occ_px": 0
+        }
+      },
+      "mask_source": "segmentation"
+    }
+  ],
+  "n_extra_train_frames": 118,
+  "tasks": {
+    "0": {
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+      "target": "akita_black_bowl_1",
+      "distractor": "akita_black_bowl_2",
+      "obj_of_interest": [
+        "akita_black_bowl_1",
+        "plate_1"
+      ]
+    },
+    "1": {
+      "task": "pick up the black bowl next to the ramekin and place it on the plate",
+      "task_name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+      "target": "akita_black_bowl_1",
+      "distractor": "akita_black_bowl_2",
+      "obj_of_interest": [
+        "akita_black_bowl_1",
+        "plate_1"
+      ]
+    },
+    "2": {
+      "task": "pick up the black bowl from table center and place it on the plate",
+      "task_name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+      "target": "akita_black_bowl_1",
+      "distractor": "akita_black_bowl_2",
+      "obj_of_interest": [
+        "akita_black_bowl_1",
+        "plate_1"
+      ]
+    },
+    "3": {
+      "task": "pick up the black bowl on the cookie box and place it on the plate",
+      "task_name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+      "target": "akita_black_bowl_1",
+      "distractor": "akita_black_bowl_2",
+      "obj_of_interest": [
+        "akita_black_bowl_1",
+        "plate_1"
+      ]
+    },
+    "4": {
+      "task": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+      "task_name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+      "target": "akita_black_bowl_1",
+      "distractor": "akita_black_bowl_2",
+      "obj_of_interest": [
+        "akita_black_bowl_1",
+        "plate_1"
+      ]
+    },
+    "5": {
+      "task": "pick up the black bowl on the ramekin and place it on the plate",
+      "task_name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+      "target": "akita_black_bowl_1",
+      "distractor": "akita_black_bowl_2",
+      "obj_of_interest": [
+        "akita_black_bowl_1",
+        "plate_1"
+      ]
+    },
+    "6": {
+      "task": "pick up the black bowl next to the cookie box and place it on the plate",
+      "task_name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+      "target": "akita_black_bowl_1",
+      "distractor": "akita_black_bowl_2",
+      "obj_of_interest": [
+        "akita_black_bowl_1",
+        "plate_1"
+      ]
+    },
+    "7": {
+      "task": "pick up the black bowl on the stove and place it on the plate",
+      "task_name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+      "target": "akita_black_bowl_1",
+      "distractor": "akita_black_bowl_2",
+      "obj_of_interest": [
+        "akita_black_bowl_1",
+        "plate_1"
+      ]
+    },
+    "8": {
+      "task": "pick up the black bowl next to the plate and place it on the plate",
+      "task_name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+      "target": "akita_black_bowl_1",
+      "distractor": "akita_black_bowl_2",
+      "obj_of_interest": [
+        "akita_black_bowl_1",
+        "plate_1"
+      ]
+    },
+    "9": {
+      "task": "pick up the black bowl on the wooden cabinet and place it on the plate",
+      "task_name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+      "target": "akita_black_bowl_1",
+      "distractor": "akita_black_bowl_2",
+      "obj_of_interest": [
+        "akita_black_bowl_1",
+        "plate_1"
+      ]
+    }
+  },
+  "target_object": [
+    "akita_black_bowl_1"
+  ],
+  "distractor_object": [
+    "akita_black_bowl_2"
+  ],
+  "selection": "fixed phases [0.4, 0.8] of the pre-grasp window (no selection on the action gap); nearest frame within \u00b16 steps where the target has >= 80 px in agentview",
+  "reason": ""
+}

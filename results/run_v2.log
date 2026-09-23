@@ -1,0 +1,384 @@
+[08:05:41] == frames | out=/content/groot-run/outputs/permanence/tc_circuit_v2
+/content/lerobot-venv/lib/python3.12/site-packages/robosuite/__init__.py:7: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  ROBOSUITE_DEFAULT_LOGGER.warn("No private macro file found!")
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+WARNING:robosuite_logs:No private macro file found!
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+WARNING:robosuite_logs:It is recommended to use a private macro file
+[robosuite WARNING] To setup, run: python /content/lerobot-venv/lib/python3.12/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+WARNING:robosuite_logs:To setup, run: python /content/lerobot-venv/lib/python3.12/site-packages/robosuite/scripts/setup_macros.py
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[08:05:59] task 0: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via scene objects, 41 geoms) | bodies=1 geoms=41 free_joints=1 | obj_of_interest=['akita_black_bowl_1', 'plate_1']
+[08:05:59] task 0: pick up the black bowl between the plate and the ramekin and place it on the plate
+[08:06:02]   task0:demo:demo_0 (discovery): T=98 lift at t=51 -> probe frames (t, phase) [(22, 0.4), (39, 0.8)]
+[08:06:04]   task0:demo:demo_1 (test): T=84 lift at t=47 -> probe frames (t, phase) [(21, 0.4), (36, 0.8)]
+[08:06:05]   task0:demo:demo_2 (test): T=90 lift at t=54 -> probe frames (t, phase) [(23, 0.4), (42, 0.8)]
+[08:06:06]   task0:demo:demo_3 (extra): T=97 lift at t=53 -> probe frames (t, phase) []
+[08:06:07]   task0:demo:demo_4 (extra): T=105 lift at t=65 -> probe frames (t, phase) []
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[08:06:13] task 1: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via scene objects, 41 geoms) | bodies=1 geoms=41 free_joints=1 | obj_of_interest=['akita_black_bowl_1', 'plate_1']
+[08:06:13] task 1: pick up the black bowl next to the ramekin and place it on the plate
+[08:06:13] task 1: no demo file pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5 under LIBERO_DATASET_DIR -> falling back to policy rollouts
+[08:06:16] checkpoint config has compile_model=True -> disabling torch.compile (hooks need eager mode)
+The PI05 model is a direct port of the OpenPI implementation. 
+This implementation follows the original OpenPI structure for compatibility. 
+Original implementation: https://github.com/Physical-Intelligence/openpi
+Loading model from: lerobot/pi05_libero_finetuned
+✓ Loaded state dict from model.safetensors
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.bias
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.weight
+All keys loaded successfully!
+/content/lerobot-venv/lib/python3.12/site-packages/torch/jit/_script.py:365: DeprecationWarning: `torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[08:08:45] policy loaded in 149s | dtype=bfloat16 chunk=50 n_action_steps=50 image_features=['observation.images.image', 'observation.images.image2', 'observation.images.empty_camera_0']
+[08:09:31] task 1: rollout init_state=0 (discovery): 112 steps, success=True
+[08:10:10] task 1: rollout init_state=1 (test): 109 steps, success=True
+[08:10:51] task 1: rollout init_state=2 (test): 115 steps, success=True
+[08:11:29] task 1: rollout init_state=3 (extra): 111 steps, success=True
+[08:12:44] task 1: rollout init_state=4 (extra): 232 steps, success=True
+[08:12:47]   task1:rollout:init0 (discovery): T=112 lift at t=66 -> probe frames (t, phase) [(28, 0.4), (51, 0.8)]
+[08:12:49]   task1:rollout:init1 (test): T=109 lift at t=66 -> probe frames (t, phase) [(28, 0.4), (51, 0.8)]
+[08:12:50]   task1:rollout:init2 (test): T=115 lift at t=69 -> probe frames (t, phase) [(29, 0.4), (54, 0.8)]
+[08:12:51]   task1:rollout:init3 (extra): T=111 lift at t=63 -> probe frames (t, phase) []
+[08:12:52]   task1:rollout:init4 (extra): T=232 lift at t=68 -> probe frames (t, phase) []
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[08:12:58] task 2: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via scene objects, 41 geoms) | bodies=1 geoms=41 free_joints=1 | obj_of_interest=['akita_black_bowl_1', 'plate_1']
+[08:12:58] task 2: pick up the black bowl from table center and place it on the plate
+[08:12:58] task 2: no demo file pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5 under LIBERO_DATASET_DIR -> falling back to policy rollouts
+[08:13:39] task 2: rollout init_state=0 (discovery): 115 steps, success=True
+[08:14:18] task 2: rollout init_state=1 (test): 105 steps, success=True
+[08:14:51] task 2: rollout init_state=2 (test): 91 steps, success=True
+[08:15:25] task 2: rollout init_state=3 (extra): 91 steps, success=True
+[08:16:01] task 2: rollout init_state=4 (extra): 99 steps, success=True
+[08:16:04]   task2:rollout:init0 (discovery): T=115 lift at t=48 -> probe frames (t, phase) [(21, 0.4), (37, 0.8)]
+[08:16:06]   task2:rollout:init1 (test): T=105 lift at t=57 -> probe frames (t, phase) [(25, 0.4), (44, 0.8)]
+[08:16:07]   task2:rollout:init2 (test): T=91 lift at t=51 -> probe frames (t, phase) [(22, 0.4), (39, 0.8)]
+[08:16:08]   task2:rollout:init3 (extra): T=91 lift at t=51 -> probe frames (t, phase) []
+[08:16:09]   task2:rollout:init4 (extra): T=99 lift at t=55 -> probe frames (t, phase) []
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[08:16:15] task 3: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via scene objects, 41 geoms) | bodies=1 geoms=41 free_joints=1 | obj_of_interest=['akita_black_bowl_1', 'plate_1']
+[08:16:15] task 3: pick up the black bowl on the cookie box and place it on the plate
+[08:16:15] task 3: no demo file pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5 under LIBERO_DATASET_DIR -> falling back to policy rollouts
+[08:16:46] task 3: rollout init_state=0 (discovery): 86 steps, success=True
+[08:17:18] task 3: rollout init_state=1 (test): 86 steps, success=True
+[08:17:52] task 3: rollout init_state=2 (test): 91 steps, success=True
+[08:18:23] task 3: rollout init_state=3 (extra): 82 steps, success=True
+[08:18:55] task 3: rollout init_state=4 (extra): 87 steps, success=True
+[08:18:57]   task3:rollout:init0 (discovery): T=86 lift at t=56 -> probe frames (t, phase) [(24, 0.4), (43, 0.8)]
+[08:18:59]   task3:rollout:init1 (test): T=86 lift at t=55 -> probe frames (t, phase) [(24, 0.4), (43, 0.8)]
+[08:19:01]   task3:rollout:init2 (test): T=91 lift at t=61 -> probe frames (t, phase) [(26, 0.4), (47, 0.8)]
+[08:19:02]   task3:rollout:init3 (extra): T=82 lift at t=54 -> probe frames (t, phase) []
+[08:19:03]   task3:rollout:init4 (extra): T=87 lift at t=58 -> probe frames (t, phase) []
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[08:19:08] task 4: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via scene objects, 41 geoms) | bodies=1 geoms=41 free_joints=1 | obj_of_interest=['akita_black_bowl_1', 'plate_1']
+[08:19:08] task 4: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+[08:19:08] task 4: no demo file pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5 under LIBERO_DATASET_DIR -> falling back to policy rollouts
+[08:19:54] task 4: rollout init_state=0 (discovery): 130 steps, success=True
+[08:21:22] task 4: rollout init_state=1 (test): 280 steps, success=False
+[08:22:50] task 4: rollout init_state=2 (test): 280 steps, success=False
+[08:23:40] task 4: rollout init_state=3 (extra): 142 steps, success=True
+[08:24:30] task 4: rollout init_state=4 (extra): 145 steps, success=True
+[08:24:33]   task4:rollout:init0 (discovery): T=130 lift at t=70 -> probe frames (t, phase) [(30, 0.4), (55, 0.8)]
+[08:24:34]   task4:rollout:init1 (test): T=280 lift at t=280 -> probe frames (t, phase) [(114, 0.4), (223, 0.8)]
+[08:24:36]   task4:rollout:init2 (test): T=280 lift at t=280 -> probe frames (t, phase) [(114, 0.4), (223, 0.8)]
+[08:24:37]   task4:rollout:init3 (extra): T=142 lift at t=73 -> probe frames (t, phase) []
+[08:24:38]   task4:rollout:init4 (extra): T=145 lift at t=79 -> probe frames (t, phase) []
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[08:24:44] task 5: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via scene objects, 41 geoms) | bodies=1 geoms=41 free_joints=1 | obj_of_interest=['akita_black_bowl_1', 'plate_1']
+[08:24:44] task 5: pick up the black bowl on the ramekin and place it on the plate
+[08:24:44] task 5: no demo file pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5 under LIBERO_DATASET_DIR -> falling back to policy rollouts
+[08:25:28] task 5: rollout init_state=0 (discovery): 115 steps, success=True
+[08:26:02] task 5: rollout init_state=1 (test): 88 steps, success=True
+[08:27:36] task 5: rollout init_state=2 (test): 280 steps, success=False
+[08:29:12] task 5: rollout init_state=3 (extra): 280 steps, success=False
+[08:30:45] task 5: rollout init_state=4 (extra): 280 steps, success=False
+[08:30:48]   task5:rollout:init0 (discovery): T=115 lift at t=78 -> probe frames (t, phase) [(33, 0.4), (61, 0.8)]
+[08:30:50]   task5:rollout:init1 (test): T=88 lift at t=47 -> probe frames (t, phase) [(21, 0.4), (36, 0.8)]
+[08:30:56]   task5:rollout:init2 (test): T=280 lift at t=44 -> probe frames (t, phase) [(19, 0.4), (32, 0.8)]
+[08:30:57]   task5:rollout:init3 (extra): T=280 lift at t=42 -> probe frames (t, phase) []
+[08:30:58]   task5:rollout:init4 (extra): T=280 lift at t=41 -> probe frames (t, phase) []
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[08:31:03] task 6: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via scene objects, 41 geoms) | bodies=1 geoms=41 free_joints=1 | obj_of_interest=['akita_black_bowl_1', 'plate_1']
+[08:31:03] task 6: pick up the black bowl next to the cookie box and place it on the plate
+[08:31:03] task 6: no demo file pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5 under LIBERO_DATASET_DIR -> falling back to policy rollouts
+[08:31:43] task 6: rollout init_state=0 (discovery): 111 steps, success=True
+[08:32:21] task 6: rollout init_state=1 (test): 104 steps, success=True
+[08:32:58] task 6: rollout init_state=2 (test): 103 steps, success=True
+[08:33:38] task 6: rollout init_state=3 (extra): 112 steps, success=True
+[08:34:15] task 6: rollout init_state=4 (extra): 104 steps, success=True
+[08:34:18]   task6:rollout:init0 (discovery): T=111 lift at t=65 -> probe frames (t, phase) [(28, 0.4), (51, 0.8)]
+[08:34:19]   task6:rollout:init1 (test): T=104 lift at t=63 -> probe frames (t, phase) [(27, 0.4), (49, 0.8)]
+[08:34:21]   task6:rollout:init2 (test): T=103 lift at t=60 -> probe frames (t, phase) [(26, 0.4), (47, 0.8)]
+[08:34:22]   task6:rollout:init3 (extra): T=112 lift at t=59 -> probe frames (t, phase) []
+[08:34:23]   task6:rollout:init4 (extra): T=104 lift at t=63 -> probe frames (t, phase) []
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[08:34:28] task 7: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via scene objects, 41 geoms) | bodies=1 geoms=41 free_joints=1 | obj_of_interest=['akita_black_bowl_1', 'plate_1']
+[08:34:28] task 7: pick up the black bowl on the stove and place it on the plate
+[08:34:28] task 7: no demo file pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5 under LIBERO_DATASET_DIR -> falling back to policy rollouts
+[08:35:11] task 7: rollout init_state=0 (discovery): 115 steps, success=True
+[08:35:52] task 7: rollout init_state=1 (test): 113 steps, success=True
+[08:36:37] task 7: rollout init_state=2 (test): 126 steps, success=True
+[08:37:21] task 7: rollout init_state=3 (extra): 119 steps, success=True
+[08:38:04] task 7: rollout init_state=4 (extra): 119 steps, success=True
+[08:38:07]   task7:rollout:init0 (discovery): T=115 lift at t=48 -> probe frames (t, phase) [(21, 0.4), (37, 0.8)]
+[08:38:09]   task7:rollout:init1 (test): T=113 lift at t=47 -> probe frames (t, phase) [(21, 0.4), (36, 0.8)]
+[08:38:10]   task7:rollout:init2 (test): T=126 lift at t=61 -> probe frames (t, phase) [(26, 0.4), (47, 0.8)]
+[08:38:12]   task7:rollout:init3 (extra): T=119 lift at t=59 -> probe frames (t, phase) []
+[08:38:13]   task7:rollout:init4 (extra): T=119 lift at t=50 -> probe frames (t, phase) []
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[08:38:18] task 8: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via scene objects, 41 geoms) | bodies=1 geoms=41 free_joints=1 | obj_of_interest=['akita_black_bowl_1', 'plate_1']
+[08:38:18] task 8: pick up the black bowl next to the plate and place it on the plate
+[08:38:18] task 8: no demo file pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5 under LIBERO_DATASET_DIR -> falling back to policy rollouts
+[08:39:48] task 8: rollout init_state=0 (discovery): 280 steps, success=False
+[08:40:21] task 8: rollout init_state=1 (test): 93 steps, success=True
+[08:40:55] task 8: rollout init_state=2 (test): 93 steps, success=True
+[08:41:29] task 8: rollout init_state=3 (extra): 97 steps, success=True
+[08:42:55] task 8: rollout init_state=4 (extra): 280 steps, success=False
+[08:42:58]   task8:rollout:init0 (discovery): T=280 lift at t=69 -> probe frames (t, phase) [(29, 0.4), (54, 0.8)]
+[08:42:59]   task8:rollout:init1 (test): T=93 lift at t=64 -> probe frames (t, phase) [(27, 0.4), (50, 0.8)]
+[08:43:01]   task8:rollout:init2 (test): T=93 lift at t=64 -> probe frames (t, phase) [(27, 0.4), (50, 0.8)]
+[08:43:02]   task8:rollout:init3 (extra): T=97 lift at t=66 -> probe frames (t, phase) []
+[08:43:03]   task8:rollout:init4 (extra): T=280 lift at t=280 -> probe frames (t, phase) []
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[08:43:09] task 9: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via scene objects, 41 geoms) | bodies=1 geoms=41 free_joints=1 | obj_of_interest=['akita_black_bowl_1', 'plate_1']
+[08:43:09] task 9: pick up the black bowl on the wooden cabinet and place it on the plate
+[08:43:09] task 9: no demo file pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5 under LIBERO_DATASET_DIR -> falling back to policy rollouts
+[08:43:53] task 9: rollout init_state=0 (discovery): 122 steps, success=True
+[08:44:34] task 9: rollout init_state=1 (test): 115 steps, success=True
+[08:45:18] task 9: rollout init_state=2 (test): 124 steps, success=True
+[08:46:03] task 9: rollout init_state=3 (extra): 126 steps, success=True
+[08:46:46] task 9: rollout init_state=4 (extra): 124 steps, success=True
+[08:46:49]   task9:rollout:init0 (discovery): T=122 lift at t=62 -> probe frames (t, phase) [(27, 0.4), (48, 0.8)]
+[08:46:51]   task9:rollout:init1 (test): T=115 lift at t=61 -> probe frames (t, phase) [(26, 0.4), (47, 0.8)]
+[08:46:52]   task9:rollout:init2 (test): T=124 lift at t=61 -> probe frames (t, phase) [(26, 0.4), (47, 0.8)]
+[08:46:53]   task9:rollout:init3 (extra): T=126 lift at t=61 -> probe frames (t, phase) []
+[08:46:54]   task9:rollout:init4 (extra): T=124 lift at t=54 -> probe frames (t, phase) []
+[08:47:02] saved 60 probe frames (20 discovery, 40 test) from 10 tasks, 60 with the distractor visible, and 118 extra transcoder-training frames
+[08:47:02] == frames finished in 2481s
+[08:47:02] == validate | out=/content/groot-run/outputs/permanence/tc_circuit_v2
+[08:47:02] hooked 18 LLM decoder layers (MLP + residual output)
+[08:47:09] validated 1/60 frames (7s)
+[08:48:04] validated 11/60 frames (62s)
+[08:49:00] validated 21/60 frames (118s)
+[08:49:56] validated 31/60 frames (174s)
+[08:50:51] validated 41/60 frames (229s)
+[08:51:46] validated 51/60 frames (283s)
+[08:52:34] validated 60/60 frames (332s)
+[08:52:34] check 1 (edits clean): PASS | max outside=0.00000 | state identical=True | prompt identical=True | absent leftover px=0 | warnings=0
+[08:52:34] check 2 (determinism, 8 frames): PASS | max diff = 0.000e+00
+[08:52:34] check 3 (signal exists): PASS | 98% of 60 frames have base-vs-occluded RMSE >= 0.02 (need 90%) | gap min/median/max = 0.015/0.186/1.789 | gap/seed-noise median 2.1x
+[08:52:34]    median action RMSE vs base: recolor 0.136 | absent 0.649 | occluded 0.186 | slab_miss 0.122 | occluded_absent 0.184 | occluded_distractor 0.084
+[08:52:34]    frames with the distractor visible (n=60): occlude TARGET 0.186 vs occlude DISTRACTOR 0.084
+[08:55:55] check 4 (ceiling, 8 frames): PASS | best full-layer swap = 97.1% at layer 1 (need >= 80.0%)
+[08:55:55]    layer : resid-swap % | mlp-swap %
+[08:55:55]        0 :     97.1     |      3.3
+[08:55:55]        1 :     97.1     |      7.8
+[08:55:55]        2 :     96.5     |      0.5
+[08:55:55]        3 :     94.8     |      8.8
+[08:55:55]        4 :     94.7     |      7.9
+[08:55:55]        5 :     94.5     |      5.0
+[08:55:55]        6 :     94.1     |      1.8
+[08:55:55]        7 :     93.4     |      4.1
+[08:55:55]        8 :     70.6     |     10.3
+[08:55:55]        9 :     63.5     |     11.1
+[08:55:55]       10 :     47.8     |     11.3
+[08:55:55]       11 :     47.5     |     12.7
+[08:55:55]       12 :     40.7     |     22.1
+[08:55:55]       13 :     44.3     |     20.1
+[08:55:55]       14 :      2.7     |      1.2
+[08:55:55]       15 :      2.4     |      1.5
+[08:55:55]       16 :      0.4     |      0.2
+[08:55:55]       17 :      0.0     |      0.0
+[08:55:56] == validate finished in 534s
+[08:55:56] == capture | out=/content/groot-run/outputs/permanence/tc_circuit_v2
+[08:55:57] capture: 258 samples (140 discovery-probe, 118 extra), ~20.3 GB in RAM (available 153.6 GB) -> extra-frame token keep fraction 1.00
+[08:55:57] captured 1/258 samples (1s)
+[08:56:14] captured 26/258 samples (18s)
+[08:56:32] captured 51/258 samples (35s)
+[08:56:49] captured 76/258 samples (53s)
+[08:57:07] captured 101/258 samples (70s)
+[08:57:24] captured 126/258 samples (88s)
+[08:57:41] captured 151/258 samples (105s)
+[08:57:59] captured 176/258 samples (123s)
+[08:58:16] captured 201/258 samples (140s)
+[08:58:34] captured 226/258 samples (157s)
+[08:58:51] captured 251/258 samples (175s)
+[08:58:56] captured 258/258 samples (180s)
+[08:59:49] saved activations for 18 layers, 258 samples from 10 tasks, 146599 tokens -> /content/groot-run/outputs/permanence/tc_circuit_v2/acts
+[08:59:49] == capture finished in 233s
+[08:59:49] == train | out=/content/groot-run/outputs/permanence/tc_circuit_v2
+[09:00:13] layer  0: held-out FVU=0.0208 loss=0.0209 alive=2035/2048 steps=4000 (24s)
+[09:00:31] layer  1: held-out FVU=0.1624 loss=0.1626 alive=2048/2048 steps=4000 (18s)
+[09:00:50] layer  2: held-out FVU=0.1674 loss=0.1667 alive=2048/2048 steps=4000 (18s)
+[09:01:09] layer  3: held-out FVU=0.1832 loss=0.1830 alive=2048/2048 steps=4000 (18s)
+[09:01:27] layer  4: held-out FVU=0.1871 loss=0.1865 alive=2048/2048 steps=4000 (18s)
+[09:01:45] layer  5: held-out FVU=0.1760 loss=0.1737 alive=2048/2048 steps=4000 (18s)
+[09:02:38] layer  6: FVU 0.2233 > 0.2 -> retrained with 8000 steps: FVU 0.2203
+[09:02:38] layer  6: held-out FVU=0.2203 loss=0.2205 alive=2048/2048 steps=8000 (53s)
+[09:02:57] layer  7: held-out FVU=0.1783 loss=0.1752 alive=2048/2048 steps=4000 (18s)
+[09:03:50] layer  8: FVU 0.2262 > 0.2 -> retrained with 8000 steps: FVU 0.2230
+[09:03:50] layer  8: held-out FVU=0.2230 loss=0.2241 alive=2048/2048 steps=8000 (53s)
+[09:04:43] layer  9: FVU 0.2299 > 0.2 -> retrained with 8000 steps: FVU 0.2275
+[09:04:43] layer  9: held-out FVU=0.2275 loss=0.2247 alive=2048/2048 steps=8000 (53s)
+[09:05:36] layer 10: FVU 0.2930 > 0.2 -> retrained with 8000 steps: FVU 0.2901
+[09:05:36] layer 10: held-out FVU=0.2901 loss=0.2887 alive=2048/2048 steps=8000 (53s)
+[09:06:34] layer 11: FVU 0.2297 > 0.2 -> retrained with 8000 steps: FVU 0.2276
+[09:06:34] layer 11: held-out FVU=0.2276 loss=0.2292 alive=2047/2048 steps=8000 (58s)
+[09:07:27] layer 12: FVU 0.2399 > 0.2 -> retrained with 8000 steps: FVU 0.2370
+[09:07:27] layer 12: held-out FVU=0.2370 loss=0.2345 alive=2048/2048 steps=8000 (52s)
+[09:07:45] layer 13: held-out FVU=0.1878 loss=0.1889 alive=2048/2048 steps=4000 (18s)
+[09:08:04] layer 14: held-out FVU=0.1703 loss=0.1718 alive=2048/2048 steps=4000 (18s)
+[09:08:22] layer 15: held-out FVU=0.1866 loss=0.1878 alive=2048/2048 steps=4000 (18s)
+[09:08:45] layer 16: held-out FVU=0.0232 loss=0.0227 alive=2024/2048 steps=4000 (22s)
+[09:09:08] layer 17: held-out FVU=0.0386 loss=0.0376 alive=2003/2048 steps=4000 (23s)
+[09:10:55] check 5 (transcoder faithful): PASS | median held-out FVU=0.1849 (need <= 0.2) | median FVU on 8 held-out TEST frames=0.3999
+[09:10:55]    layer | FVU(held-out) | FVU(test frames) | splice RMSE / occlusion gap (test frames)
+[09:10:55]        0 |       0.0208 |          0.0731 |    0.273
+[09:10:55]        1 |       0.1624 |          0.5006 |    0.698
+[09:10:55]        2 |       0.1674 |          0.4036 |    0.573
+[09:10:55]        3 |       0.1832 |          0.4323 |    0.936
+[09:10:55]        4 |       0.1871 |          0.4039 |    0.969
+[09:10:55]        5 |       0.1760 |          0.3527 |    1.019
+[09:10:55]        6 |       0.2203 |          0.4892 |    0.819
+[09:10:55]        7 |       0.1783 |          0.3491 |    0.779
+[09:10:55]        8 |       0.2230 |          0.4305 |    0.809
+[09:10:55]        9 |       0.2275 |          0.4143 |    0.777
+[09:10:55]       10 |       0.2901 |          0.5211 |    0.814
+[09:10:55]       11 |       0.2276 |          0.3963 |    1.067
+[09:10:55]       12 |       0.2370 |          0.4676 |    1.220
+[09:10:55]       13 |       0.1878 |          0.3249 |    1.145
+[09:10:55]       14 |       0.1703 |          0.2675 |    0.335
+[09:10:55]       15 |       0.1866 |          0.3055 |    0.281
+[09:10:55]       16 |       0.0232 |          0.0322 |    0.077
+[09:10:55]       17 |       0.0386 |          0.0527 |    0.000
+[09:10:55] == train finished in 666s
+[09:10:55] == goal1 | out=/content/groot-run/outputs/permanence/tc_circuit_v2
+[09:10:56] layer  0:    1 passing occlusion features (1 also target-specific vs the distractor) | top [1178] | color set [1084]
+[09:10:58] layer  1:    3 passing occlusion features (3 also target-specific vs the distractor) | top [1113, 564, 22] | color set [421, 242, 267]
+[09:10:59] layer  2:    3 passing occlusion features (3 also target-specific vs the distractor) | top [2045, 847, 1746] | color set [741, 1507, 624]
+[09:11:01] layer  3:    0 passing occlusion features (0 also target-specific vs the distractor) | top [] | color set [308]
+[09:11:02] layer  4:    2 passing occlusion features (2 also target-specific vs the distractor) | top [397, 746] | color set [1077, 771]
+[09:11:03] layer  5:    5 passing occlusion features (5 also target-specific vs the distractor) | top [93, 1382, 1232, 1269, 1992] | color set [323, 1076, 1051, 1403, 1953]
+[09:11:05] layer  6:    3 passing occlusion features (3 also target-specific vs the distractor) | top [1090, 1096, 746] | color set [435, 922, 1305]
+[09:11:06] layer  7:    5 passing occlusion features (5 also target-specific vs the distractor) | top [280, 1272, 863, 419, 1110] | color set [1073, 1288, 483, 575, 1830]
+[09:11:08] layer  8:    1 passing occlusion features (1 also target-specific vs the distractor) | top [1028] | color set [144]
+[09:11:09] layer  9:    1 passing occlusion features (1 also target-specific vs the distractor) | top [1652] | color set [159]
+[09:11:11] layer 10:    2 passing occlusion features (2 also target-specific vs the distractor) | top [80, 1285] | color set [674, 1540]
+[09:11:12] layer 11:    1 passing occlusion features (1 also target-specific vs the distractor) | top [1876] | color set [880]
+[09:11:13] layer 12:    1 passing occlusion features (1 also target-specific vs the distractor) | top [1750] | color set [2001]
+[09:11:15] layer 13:    0 passing occlusion features (0 also target-specific vs the distractor) | top [] | color set [258]
+[09:11:16] layer 14:    0 passing occlusion features (0 also target-specific vs the distractor) | top [] | color set [1501]
+[09:11:17] layer 15:    1 passing occlusion features (1 also target-specific vs the distractor) | top [730] | color set [10]
+[09:11:19] layer 16:    0 passing occlusion features (0 also target-specific vs the distractor) | top [] | color set [1357]
+[09:11:20] layer 17:    0 passing occlusion features (0 also target-specific vs the distractor) | top [] | color set [956]
+[09:11:23] Goal 1: PASS | 29 passing features of 36864 (0.08%), 29 also target-specific | top layers [5, 1, 7]
+[09:11:23] == goal1 finished in 28s
+[09:11:23] == goal2 | out=/content/groot-run/outputs/permanence/tc_circuit_v2
+[09:11:24] Goal 2 on 40 held-out test frames from 10 tasks | capped set 29 features (13 layers), uncapped 29, target-specific 29, color 34 | 10 random draws | k-curve oracle [50, 100, 200, 500, 1000, 2000, 5000] discovery [100, 500, 2000, 5000] random [500, 2000]
+[09:12:12] test frame 1/40 (id 2, task 0): gap=0.194 | occ  -3.4% random  -0.2% all-tc  52.0% ceiling  60.6% (48s)
+[09:13:00] test frame 2/40 (id 3, task 0): gap=0.257 | occ   0.3% random   0.2% all-tc  39.1% ceiling  85.9% (97s)
+[09:13:49] test frame 3/40 (id 4, task 0): gap=0.302 | occ  -1.7% random  -0.2% all-tc  38.0% ceiling  40.0% (145s)
+[09:14:37] test frame 4/40 (id 5, task 0): gap=0.179 | occ   0.6% random   0.2% all-tc   9.7% ceiling  88.6% (193s)
+[09:15:25] test frame 5/40 (id 8, task 1): gap=0.129 | occ   0.7% random   0.4% all-tc  53.5% ceiling  76.9% (241s)
+[09:16:14] test frame 6/40 (id 9, task 1): gap=0.314 | occ   0.1% random  -0.1% all-tc  56.0% ceiling  84.2% (290s)
+[09:17:03] test frame 7/40 (id 10, task 1): gap=0.231 | occ   0.2% random   0.1% all-tc  52.7% ceiling  91.3% (339s)
+[09:17:52] test frame 8/40 (id 11, task 1): gap=0.222 | occ  -2.8% random  -0.1% all-tc  53.9% ceiling  89.4% (388s)
+[09:18:40] test frame 9/40 (id 14, task 2): gap=0.142 | occ   1.8% random   0.2% all-tc  42.1% ceiling  82.8% (437s)
+[09:19:29] test frame 10/40 (id 15, task 2): gap=0.132 | occ  -3.8% random  -0.0% all-tc  39.3% ceiling  87.2% (486s)
+[09:19:34] test frame 11/40 (id 16, task 2): gap 0.0757 < 0.1 -> excluded from patching (pre-specified rule)
+[09:20:23] test frame 12/40 (id 17, task 2): gap=0.172 | occ  -1.3% random  -0.2% all-tc  48.0% ceiling  93.2% (539s)
+[09:21:12] test frame 13/40 (id 20, task 3): gap=0.113 | occ  -0.2% random   0.4% all-tc  41.8% ceiling  64.8% (588s)
+[09:22:01] test frame 14/40 (id 21, task 3): gap=0.358 | occ   7.1% random   0.2% all-tc  71.0% ceiling  96.1% (637s)
+[09:22:50] test frame 15/40 (id 22, task 3): gap=0.139 | occ   0.1% random   0.1% all-tc  46.4% ceiling  80.0% (686s)
+[09:23:39] test frame 16/40 (id 23, task 3): gap=0.333 | occ   1.6% random  -0.0% all-tc  51.3% ceiling  92.7% (735s)
+[09:24:27] test frame 17/40 (id 26, task 4): gap=0.126 | occ   1.0% random  -0.1% all-tc  62.9% ceiling  94.9% (783s)
+[09:24:32] test frame 18/40 (id 27, task 4): gap 0.0377 < 0.1 -> excluded from patching (pre-specified rule)
+[09:25:20] test frame 19/40 (id 28, task 4): gap=0.725 | occ   0.6% random   0.3% all-tc  88.5% ceiling  97.7% (836s)
+[09:25:25] test frame 20/40 (id 29, task 4): gap 0.0303 < 0.1 -> excluded from patching (pre-specified rule)
+[09:25:29] test frame 21/40 (id 32, task 5): gap 0.0516 < 0.1 -> excluded from patching (pre-specified rule)
+[09:26:18] test frame 22/40 (id 33, task 5): gap=1.789 | occ  -0.0% random  -0.0% all-tc  84.2% ceiling  93.1% (894s)
+[09:27:06] test frame 23/40 (id 34, task 5): gap=0.171 | occ   1.5% random   0.3% all-tc  14.0% ceiling  74.3% (942s)
+[09:27:11] test frame 24/40 (id 35, task 5): gap 0.0146 < 0.1 -> excluded from patching (pre-specified rule)
+[09:27:59] test frame 25/40 (id 38, task 6): gap=0.570 | occ   1.4% random   0.1% all-tc  69.3% ceiling  93.3% (995s)
+[09:28:47] test frame 26/40 (id 39, task 6): gap=0.257 | occ  -0.1% random   0.2% all-tc  39.5% ceiling  91.3% (1043s)
+[09:29:35] test frame 27/40 (id 40, task 6): gap=0.132 | occ   0.0% random   0.1% all-tc  42.6% ceiling  85.2% (1091s)
+[09:30:24] test frame 28/40 (id 41, task 6): gap=0.344 | occ   1.3% random   0.2% all-tc  12.6% ceiling  89.7% (1140s)
+[09:30:28] test frame 29/40 (id 44, task 7): gap 0.0747 < 0.1 -> excluded from patching (pre-specified rule)
+[09:31:17] test frame 30/40 (id 45, task 7): gap=0.261 | occ   0.5% random  -0.0% all-tc  63.9% ceiling  93.8% (1193s)
+[09:32:05] test frame 31/40 (id 46, task 7): gap=0.142 | occ   1.3% random  -0.4% all-tc   5.4% ceiling  13.8% (1241s)
+[09:32:54] test frame 32/40 (id 47, task 7): gap=0.111 | occ   1.0% random   0.5% all-tc  49.6% ceiling  88.0% (1290s)
+[09:33:42] test frame 33/40 (id 50, task 8): gap=0.246 | occ  -0.4% random  -0.2% all-tc  38.7% ceiling  48.4% (1338s)
+[09:34:30] test frame 34/40 (id 51, task 8): gap=0.227 | occ   1.4% random   0.1% all-tc  14.1% ceiling  42.1% (1387s)
+[09:35:19] test frame 35/40 (id 52, task 8): gap=0.225 | occ   0.3% random  -0.3% all-tc  38.0% ceiling  90.3% (1435s)
+[09:36:07] test frame 36/40 (id 53, task 8): gap=0.109 | occ  -0.8% random  -0.2% all-tc  29.6% ceiling  77.7% (1484s)
+[09:36:56] test frame 37/40 (id 56, task 9): gap=0.165 | occ  -0.5% random  -0.0% all-tc  11.3% ceiling  17.3% (1532s)
+[09:37:44] test frame 38/40 (id 57, task 9): gap=0.154 | occ   0.1% random   0.1% all-tc  24.4% ceiling  88.6% (1580s)
+[09:38:32] test frame 39/40 (id 58, task 9): gap=0.478 | occ   0.9% random   0.1% all-tc  42.5% ceiling  69.6% (1629s)
+[09:39:21] test frame 40/40 (id 59, task 9): gap=0.297 | occ   0.2% random   0.2% all-tc  28.0% ceiling  41.8% (1677s)
+[09:39:21] ALL layers: occlusion   0.27% | random(same-norm)   0.05% | color   0.05% | MLP-site ceiling  76.61% | margin +0.21 pts -> fail
+[09:39:21] layer 5   : occlusion  -0.03% | random(same-norm)   0.10% | color  -0.03% | MLP-site ceiling  12.54% | margin -0.13 pts -> fail
+[09:39:21] layer 1   : occlusion  -0.07% | random(same-norm)   0.01% | color   0.12% | MLP-site ceiling  13.36% | margin -0.19 pts -> fail
+[09:39:21] layer 7   : occlusion   0.11% | random(same-norm)   0.04% | color  -0.00% | MLP-site ceiling  12.68% | margin +0.07 pts -> fail
+[09:39:21] ALL layers, uncapped (29 features): occlusion 0.27% vs random(same-norm) 0.03% -> fail | all transcoder features 42.77%
+[09:39:21] held-out selectivity: replicate_frac_capped=0.276, replicate_frac_uncapped=0.276, replicate_frac_target_specific=0.276, replicate_frac_color=0.000, replicate_frac_random_draws_mean=0.000, replicate_frac_all_alive_base_rate=0.000, spearman_d_occluded_discovery_vs_test_all_alive=0.650, distractor_over_occluded_median_capped=0.058
+[09:39:22] edge L1 -> L5 (occ): 0.6% of target-feature activation
+[09:39:22] edge L1 -> L5 (random): 0.0% of target-feature activation
+[09:39:22] edge L1 -> L7 (occ): 0.3% of target-feature activation
+[09:39:22] edge L1 -> L7 (random): -0.0% of target-feature activation
+[09:39:22] edge L5 -> L7 (occ): 2.4% of target-feature activation
+[09:39:22] edge L5 -> L7 (random): 0.3% of target-feature activation
+[09:39:22] ALL layers, occ - random(same-norm): +0.21 pts, 95% CI [-0.35, +0.84] | p(frames)=0.25 p(tasks)=0.222 | positive in 7/10 tasks, 65% of frames | beats every random draw on 12/34 frames
+[09:39:22] k-curve (oracle): K=50: 0.0% | K=100: 0.1% | K=200: 1.0% | K=500: 6.7% | K=1000: 11.9% | K=2000: 18.2% | K=5000: 29.8%
+[09:39:22] k-curve (discovery): K=100: 0.0% | K=500: 2.1% | K=2000: 6.5% | K=5000: 10.4%
+[09:39:22] k-curve (random): K=500: 0.6% | K=2000: 3.8%
+[09:39:22] Goal 2: FAIL (null result is the finding) | primary site = all layers | 34/40 test frames, 10 tasks
+[09:39:22] == goal2 finished in 1679s
+[09:39:23] == goal3 | out=/content/groot-run/outputs/permanence/tc_circuit_v2
+[09:39:23] Goal 2 did not pass -> Goal 3 runs as an EXPLORATORY closed-loop check (GOAL3_EXPLORATORY=True). Report it as exploratory: the pre-registered gate would have skipped it.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[09:39:27] task 0: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via scene objects, 41 geoms) | bodies=1 geoms=41 free_joints=1 | obj_of_interest=['akita_black_bowl_1', 'plate_1']
+[09:39:56] clean_reference      episode 0: success=True steps=75 (28s)
+[09:41:24] clean_reference      episode 1: success=False steps=280 (117s)
+[09:41:52] clean_reference      episode 2: success=True steps=74 (145s)
+[09:42:21] clean_reference      episode 3: success=True steps=76 (173s)
+[09:42:50] clean_reference      episode 4: success=True steps=78 (203s)
+[09:43:20] clean_reference      episode 5: success=True steps=79 (232s)
+[09:43:48] clean_reference      episode 6: success=True steps=72 (260s)
+[09:44:17] clean_reference      episode 7: success=True steps=79 (290s)
+[09:44:48] clean_reference      episode 8: success=True steps=81 (320s)
+[09:45:15] clean_reference      episode 9: success=True steps=73 (348s)
+[09:45:49] baseline_hidden      episode 0: success=True steps=77 (381s)
+[09:46:34] baseline_hidden      episode 1: success=True steps=112 (427s)
+[09:47:08] baseline_hidden      episode 2: success=True steps=78 (461s)
+[09:48:53] baseline_hidden      episode 3: success=False steps=280 (566s)
+[09:49:27] baseline_hidden      episode 4: success=True steps=76 (599s)
+[09:50:01] baseline_hidden      episode 5: success=True steps=79 (633s)
+[09:50:34] baseline_hidden      episode 6: success=True steps=74 (666s)
+[09:51:09] baseline_hidden      episode 7: success=True steps=83 (702s)
+[09:51:45] baseline_hidden      episode 8: success=True steps=82 (737s)
+[09:52:18] baseline_hidden      episode 9: success=True steps=78 (771s)
+[09:52:52] features_ablated     episode 0: success=True steps=78 (805s)
+[09:54:37] features_ablated     episode 1: success=False steps=280 (910s)
+[09:55:11] features_ablated     episode 2: success=True steps=77 (943s)
+[09:56:58] features_ablated     episode 3: success=False steps=280 (1050s)
+[09:57:31] features_ablated     episode 4: success=True steps=76 (1084s)
+[09:58:05] features_ablated     episode 5: success=True steps=79 (1118s)
+[09:58:38] features_ablated     episode 6: success=True steps=73 (1151s)
+[09:59:14] features_ablated     episode 7: success=True steps=84 (1187s)
+[09:59:50] features_ablated     episode 8: success=True steps=82 (1222s)
+[10:00:23] features_ablated     episode 9: success=True steps=78 (1256s)
+[10:00:57] features_amplified   episode 0: success=True steps=77 (1289s)
+[10:02:41] features_amplified   episode 1: success=False steps=280 (1394s)
+[10:03:15] features_amplified   episode 2: success=True steps=78 (1428s)
+[10:05:01] features_amplified   episode 3: success=False steps=280 (1533s)
+[10:05:34] features_amplified   episode 4: success=True steps=75 (1567s)
+[10:06:09] features_amplified   episode 5: success=True steps=80 (1601s)
+[10:06:42] features_amplified   episode 6: success=True steps=74 (1634s)
+[10:07:18] features_amplified   episode 7: success=True steps=85 (1671s)
+[10:07:53] features_amplified   episode 8: success=True steps=81 (1706s)
+[10:08:26] features_amplified   episode 9: success=True steps=74 (1738s)
+[10:08:26] check 6 (closed loop measurable): PASS | baseline (bowl hidden) success = 0.90
+[10:08:26] features_ablated: success 0.80 | diff vs baseline -0.10 CI95 [-0.30, +0.00] | predicted + -> no reliable shift
+[10:08:26] features_amplified: success 0.80 | diff vs baseline -0.10 CI95 [-0.30, +0.00] | predicted - -> no reliable shift
+[10:08:26] == goal3 finished in 1743s
+[10:08:27] == chain frames,validate,capture,train,goal1,goal2,goal3 finished in 122.8 min

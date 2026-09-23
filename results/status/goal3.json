@@ -1,0 +1,54 @@
+{
+  "step": "goal3",
+  "passed": false,
+  "protocol": 2,
+  "time": "2026-09-23 10:08:26",
+  "check6": true,
+  "exploratory": true,
+  "task_id": 0,
+  "n_episodes": 10,
+  "success": {
+    "clean_reference": 0.9,
+    "baseline_hidden": 0.9,
+    "features_ablated": 0.8,
+    "features_amplified": 0.8
+  },
+  "stats": {
+    "features_ablated": {
+      "success": 0.8,
+      "diff_vs_baseline": -0.09999999999999998,
+      "ci95": [
+        -0.30000000000000004,
+        0.0
+      ],
+      "predicted_sign": "+",
+      "ci_excludes_zero_in_predicted_direction": false
+    },
+    "features_amplified": {
+      "success": 0.8,
+      "diff_vs_baseline": -0.09999999999999998,
+      "ci95": [
+        -0.30000000000000004,
+        0.0
+      ],
+      "predicted_sign": "-",
+      "ci_excludes_zero_in_predicted_direction": false
+    }
+  },
+  "layers": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    15
+  ],
+  "reason": "quantified null: causal effect does not survive closed loop"
+}

@@ -1,0 +1,29 @@
+{
+  "step": "capture",
+  "passed": true,
+  "protocol": 2,
+  "time": "2026-09-23 08:59:49",
+  "n_layers": 18,
+  "n_samples": 258,
+  "n_tokens": 146599,
+  "layout": {
+    "n_img": 3,
+    "lang_len": 200,
+    "T": 968,
+    "per_img": 256,
+    "grid": 16,
+    "img_keys": [
+      "observation.images.image",
+      "observation.images.image2",
+      "observation.images.empty_camera_0"
+    ],
+    "img_suffix": [
+      "image",
+      "image2",
+      "empty_camera_0"
+    ]
+  },
+  "n_tasks": 10,
+  "extra_token_keep_frac": 1.0,
+  "note": "discovery split only; held-out test frames are never used for training"
+}

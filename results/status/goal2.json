@@ -1,0 +1,220 @@
+{
+  "step": "goal2",
+  "passed": false,
+  "protocol": 2,
+  "time": "2026-09-23 09:39:22",
+  "verdict": {
+    "all": {
+      "occ": 0.2655666489347195,
+      "random_same_norm": 0.0537902474834677,
+      "random_raw": 0.04716684596073181,
+      "color": 0.04549422181920762,
+      "margin_vs_best_control": 0.2117764014512518,
+      "mlp_site_ceiling": 76.61111203746039,
+      "occ_share_of_ceiling_pct": 0.3466424672244228,
+      "occ_remove": 0.5141428385559046,
+      "mlp_site_ceiling_remove": 87.99184973057825,
+      "passed_absolute": false,
+      "passed": false,
+      "n_features": 29,
+      "occ_uncapped": 0.2655666489347195,
+      "random_same_norm_uncapped": 0.029509283460160574,
+      "margin_uncapped": 0.22007242711551186,
+      "passed_uncapped": false,
+      "occ_target_specific": 0.2655666489347195,
+      "all_tc": 42.766442702951565,
+      "n_features_uncapped": 29,
+      "n_features_target_specific": 29
+    },
+    "5": {
+      "occ": -0.027364871816618553,
+      "random_same_norm": 0.10336602670626431,
+      "random_raw": NaN,
+      "color": -0.034030971138414384,
+      "margin_vs_best_control": -0.13073089852288286,
+      "mlp_site_ceiling": 12.544084429703455,
+      "occ_share_of_ceiling_pct": -0.21814961442558997,
+      "occ_remove": NaN,
+      "mlp_site_ceiling_remove": NaN,
+      "passed_absolute": false,
+      "passed": false,
+      "n_features": 5
+    },
+    "1": {
+      "occ": -0.073017412868063,
+      "random_same_norm": 0.011839886884137625,
+      "random_raw": NaN,
+      "color": 0.1155332986159653,
+      "margin_vs_best_control": -0.1885507114840283,
+      "mlp_site_ceiling": 13.35665359159517,
+      "occ_share_of_ceiling_pct": -0.5466744523045058,
+      "occ_remove": NaN,
+      "mlp_site_ceiling_remove": NaN,
+      "passed_absolute": false,
+      "passed": false,
+      "n_features": 3
+    },
+    "7": {
+      "occ": 0.10816546503202394,
+      "random_same_norm": 0.03917059085929888,
+      "random_raw": NaN,
+      "color": -0.003722644647513922,
+      "margin_vs_best_control": 0.06899487417272507,
+      "mlp_site_ceiling": 12.684441259017678,
+      "occ_share_of_ceiling_pct": 0.8527412664324215,
+      "occ_remove": NaN,
+      "mlp_site_ceiling_remove": NaN,
+      "passed_absolute": false,
+      "passed": false,
+      "n_features": 5
+    }
+  },
+  "passing_layers": [],
+  "best_layer": "all",
+  "primary_site": "all",
+  "rule": "absolute",
+  "split": "test",
+  "n_frames_total": 40,
+  "n_frames_included": 34,
+  "n_tasks": 10,
+  "features": {
+    "5": [
+      93,
+      1382,
+      1232,
+      1269,
+      1992
+    ],
+    "1": [
+      1113,
+      564,
+      22
+    ],
+    "7": [
+      280,
+      1272,
+      863,
+      419,
+      1110
+    ]
+  },
+  "goal3_layers": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    15
+  ],
+  "paired_all_occ_vs_random": {
+    "mean_diff": 0.2117764014512518,
+    "ci95": [
+      -0.35285379997840693,
+      0.8388532730442887
+    ],
+    "p_signflip_frames": 0.25491372543137286,
+    "p_signflip_tasks": 0.2216796875,
+    "frac_frames_positive": 0.6470588235294118,
+    "n_tasks_positive": 7,
+    "n_frames": 34,
+    "n_tasks": 10,
+    "per_task_mean_diff": {
+      "0": -1.029044376510579,
+      "1": -0.56747771398722,
+      "2": -1.1144277237700668,
+      "3": 1.9899148816326333,
+      "4": 0.738151804165092,
+      "5": 0.5986343744152856,
+      "6": 0.49953151059498907,
+      "7": 0.907501221238655,
+      "8": 0.2546466393731653,
+      "9": 0.1393302588410214
+    }
+  },
+  "kcurve": {
+    "oracle": [
+      [
+        50,
+        0.02042447397473782
+      ],
+      [
+        100,
+        0.12057075813929438
+      ],
+      [
+        200,
+        1.0375372944241277
+      ],
+      [
+        500,
+        6.712473243742428
+      ],
+      [
+        1000,
+        11.911828670727981
+      ],
+      [
+        2000,
+        18.182625018279953
+      ],
+      [
+        5000,
+        29.795346850667602
+      ]
+    ],
+    "discovery": [
+      [
+        100,
+        0.029991149361404092
+      ],
+      [
+        500,
+        2.071352437213703
+      ],
+      [
+        2000,
+        6.470330737013142
+      ],
+      [
+        5000,
+        10.447228004637768
+      ]
+    ],
+    "random": [
+      [
+        500,
+        0.6082577123158867
+      ],
+      [
+        2000,
+        3.8441459699337175
+      ]
+    ]
+  },
+  "heldout_selectivity": {
+    "n_test_frames": 40,
+    "criteria": "same Goal-1 rule, recomputed on held-out test frames only",
+    "replicate_frac_capped": 0.27586206896551724,
+    "n_capped": 29,
+    "replicate_frac_uncapped": 0.27586206896551724,
+    "n_uncapped": 29,
+    "replicate_frac_target_specific": 0.27586206896551724,
+    "n_target_specific": 29,
+    "replicate_frac_color": 0.0,
+    "n_color": 34,
+    "replicate_frac_random_draws_mean": 0.0,
+    "replicate_frac_all_alive_base_rate": 0.0003260692353676431,
+    "spearman_d_occluded_discovery_vs_test_all_alive": 0.6504228793556854,
+    "pearson_d_occluded_discovery_vs_test_all_alive": 0.7985826941952751,
+    "distractor_over_occluded_median_capped": 0.05782536417245865,
+    "n_frames_distractor_visible": 40
+  },
+  "reason": "on held-out test frames, the occlusion features do not beat random/color by the pre-registered margin at the all-layer site -> Goal 2's null is the finding"
+}
